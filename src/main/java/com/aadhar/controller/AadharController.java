@@ -84,6 +84,7 @@ public class AadharController {
 	@CachePut(cacheNames = "allData", key = "'aadharNo'")
 	public ResponseEntity<Aadhar> saveAadhar(@RequestBody Aadhar aadhar)
 			throws IllegalArgumentException, IllegalAccessException {
+		System.out.println("for testing.");
 		return aadharService.saveEntity(aadhar);
 	}
 
