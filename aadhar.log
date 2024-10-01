@@ -25,3 +25,69 @@
 2024-09-13T18:23:08.405+05:30  INFO 11672 --- [Aadhar] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8099 (http) with context path ''
 2024-09-13T18:23:08.415+05:30  INFO 11672 --- [Aadhar] [restartedMain] com.aadhar.AadharApplication             : Started AadharApplication in 7.066 seconds (process running for 7.805)
 2024-09-13T20:19:28.492+05:30  WARN 11672 --- [Aadhar] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m21s646ms638µs500ns).
+2024-10-01T11:07:01.337+05:30  INFO 13884 --- [Aadhar] [main] com.aadhar.AadharApplicationTests        : Starting AadharApplicationTests using Java 18.0.2.1 with PID 13884 (started by 91891 in C:\Users\91891\OneDrive\Desktop\Aadhar)
+2024-10-01T11:07:01.340+05:30  INFO 13884 --- [Aadhar] [main] com.aadhar.AadharApplicationTests        : The following 1 profile is active: "prod"
+2024-10-01T11:07:02.651+05:30  INFO 13884 --- [Aadhar] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01T11:07:02.736+05:30  INFO 13884 --- [Aadhar] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2024-10-01T11:07:03.572+05:30  INFO 13884 --- [Aadhar] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01T11:07:03.696+05:30  INFO 13884 --- [Aadhar] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-01T11:07:03.755+05:30  INFO 13884 --- [Aadhar] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-01T11:07:04.320+05:30  INFO 13884 --- [Aadhar] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-01T11:07:04.365+05:30  INFO 13884 --- [Aadhar] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-01T11:07:04.668+05:30  INFO 13884 --- [Aadhar] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b508371
+2024-10-01T11:07:04.672+05:30  INFO 13884 --- [Aadhar] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-01T11:07:04.773+05:30  WARN 13884 --- [Aadhar] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.29 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-01T11:07:06.227+05:30  INFO 13884 --- [Aadhar] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-01T11:07:06.404+05:30  INFO 13884 --- [Aadhar] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01T11:07:06.950+05:30  INFO 13884 --- [Aadhar] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-01T11:07:07.645+05:30  WARN 13884 --- [Aadhar] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01T11:07:08.996+05:30  INFO 13884 --- [Aadhar] [main] com.aadhar.AadharApplicationTests        : Started AadharApplicationTests in 8.151 seconds (process running for 10.062)
+2024-10-01T11:07:09.638+05:30  INFO 13884 --- [Aadhar] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01T11:07:09.642+05:30  INFO 13884 --- [Aadhar] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-01T11:07:09.651+05:30  INFO 13884 --- [Aadhar] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-01T11:13:18.693+05:30  INFO 15408 --- [Aadhar] [main] com.aadhar.AadharApplicationTests        : Starting AadharApplicationTests using Java 18.0.2.1 with PID 15408 (started by 91891 in C:\Users\91891\OneDrive\Desktop\Aadhar)
+2024-10-01T11:13:18.695+05:30  INFO 15408 --- [Aadhar] [main] com.aadhar.AadharApplicationTests        : The following 1 profile is active: "prod"
+2024-10-01T11:13:19.892+05:30  INFO 15408 --- [Aadhar] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01T11:13:19.964+05:30  INFO 15408 --- [Aadhar] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2024-10-01T11:13:20.619+05:30  INFO 15408 --- [Aadhar] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01T11:13:20.729+05:30  INFO 15408 --- [Aadhar] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-01T11:13:20.793+05:30  INFO 15408 --- [Aadhar] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-01T11:13:21.219+05:30  INFO 15408 --- [Aadhar] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-01T11:13:21.270+05:30  INFO 15408 --- [Aadhar] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-01T11:13:21.514+05:30  INFO 15408 --- [Aadhar] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58aa5c94
+2024-10-01T11:13:21.517+05:30  INFO 15408 --- [Aadhar] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-01T11:13:21.604+05:30  WARN 15408 --- [Aadhar] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.29 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-01T11:13:22.846+05:30  INFO 15408 --- [Aadhar] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-01T11:13:22.958+05:30  INFO 15408 --- [Aadhar] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01T11:13:23.493+05:30  INFO 15408 --- [Aadhar] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-01T11:13:24.155+05:30  WARN 15408 --- [Aadhar] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01T11:13:25.541+05:30  INFO 15408 --- [Aadhar] [main] com.aadhar.AadharApplicationTests        : Started AadharApplicationTests in 7.307 seconds (process running for 9.583)
+2024-10-01T11:13:26.205+05:30  INFO 15408 --- [Aadhar] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01T11:13:26.209+05:30  INFO 15408 --- [Aadhar] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-01T11:13:26.220+05:30  INFO 15408 --- [Aadhar] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-01T11:14:12.144+05:30  INFO 16724 --- [Aadhar] [restartedMain] com.aadhar.AadharApplication             : Starting AadharApplication using Java 18.0.2.1 with PID 16724 (C:\Users\91891\OneDrive\Desktop\Aadhar\target\classes started by 91891 in C:\Users\91891\OneDrive\Desktop\Aadhar)
+2024-10-01T11:14:12.147+05:30  INFO 16724 --- [Aadhar] [restartedMain] com.aadhar.AadharApplication             : The following 1 profile is active: "prod"
+2024-10-01T11:14:12.231+05:30  INFO 16724 --- [Aadhar] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-01T11:14:12.231+05:30  INFO 16724 --- [Aadhar] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-01T11:14:13.285+05:30  INFO 16724 --- [Aadhar] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01T11:14:13.369+05:30  INFO 16724 --- [Aadhar] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2024-10-01T11:14:14.266+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8099 (http)
+2024-10-01T11:14:14.283+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-01T11:14:14.284+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-10-01T11:14:14.361+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-01T11:14:14.361+05:30  INFO 16724 --- [Aadhar] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2129 ms
+2024-10-01T11:14:14.600+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01T11:14:14.660+05:30  INFO 16724 --- [Aadhar] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-10-01T11:14:14.697+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-01T11:14:14.975+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-01T11:14:15.004+05:30  INFO 16724 --- [Aadhar] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-01T11:14:15.164+05:30  INFO 16724 --- [Aadhar] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e3da0da
+2024-10-01T11:14:15.166+05:30  INFO 16724 --- [Aadhar] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-01T11:14:15.228+05:30  WARN 16724 --- [Aadhar] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.29 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-01T11:14:16.168+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-01T11:14:16.274+05:30  INFO 16724 --- [Aadhar] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01T11:14:16.839+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-01T11:14:17.326+05:30  WARN 16724 --- [Aadhar] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01T11:14:18.523+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-01T11:14:18.564+05:30  INFO 16724 --- [Aadhar] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8099 (http) with context path ''
+2024-10-01T11:14:18.577+05:30  INFO 16724 --- [Aadhar] [restartedMain] com.aadhar.AadharApplication             : Started AadharApplication in 6.978 seconds (process running for 7.671)
