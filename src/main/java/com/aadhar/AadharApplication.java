@@ -14,8 +14,7 @@ public class AadharApplication {
 
 	Logger log = LoggerFactory.getLogger(AadharApplication.class);
 
-	public static void main(String[] args) {
-		System.out.println("12");
+	public static void main(String[] args) 
 		SpringApplication.run(AadharApplication.class, args);
 	}
 
